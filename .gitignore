@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+.venv/
+env/
+CE340/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+Me.Read.ipynb
+# Logs and training runs
+*.log
+runs/
+training_runs_archive*/
+
+# OS / IDE generated files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Datasets and heavy data directories
+Final_TRAIN/SVRDD_YOLO/
+Final_TRAIN/SVRDD_YOLO_Workspace/
+THẦY/SVRDD_Test/
+SVRDD_TEST/
+*.npy
+*.whl
+
+# Large Model Weights (PyTorch, HDF5, ONNX, TFLite)
+*.pt
+*.pth
+*.h5
+*.onnx
+*.tflite

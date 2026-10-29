@@ -1,0 +1,14 @@
+# Requirements for Raspberry Pi Zero 2W Inference Environment
+
+# Core Numerical & Image Processing
+numpy>=1.21.0
+Pillow>=8.0.0
+opencv-python-headless>=4.5.0
+
+# Plotting & Visualization (Used by metrics evaluation)
+matplotlib>=3.3.0
+
+# Lightweight TensorFlow Lite Runtime for ARM / Raspberry Pi
+# Note: On Raspberry Pi OS, install tflite-runtime via pip or wheel
+# tflite-runtime>=2.5.0
+tflite-runtime
