@@ -59,8 +59,7 @@ Mô hình chạy dưới định dạng **TensorFlow Lite (`.tflite`)**, nạp q
 - Đọc ảnh bằng Pillow: `Image.open(path)`
 - Resize ảnh về kích thước `320x320`.
 - Chuyển thành mảng NumPy và mở rộng chiều batch: shape `(1, 320, 320, 3)`.
-- **Chuẩn hóa (Normalization)**: Đối với mô hình Float32 (`floating_model == True`), giá trị pixel được chuẩn hóa về khoảng `[0.0, 1.0]` theo công thức:
-  $$\text{input\_data} = \frac{\text{np.float32}(\text{input}) - 0.0}{255.0}$$
+- **Chuẩn hóa (Normalization)**: Đối với mô hình Float32 (`floating_model == True`), giá trị pixel được chuẩn hóa về khoảng `[0.0, 1.0]`
 
 ### 3. Suy luận & Hậu xử lý (Inference & Post-processing)
 - Thực thi suy luận qua `interpreter.invoke()`.
