@@ -1,4 +1,4 @@
-# Computer Vision: Road Damage Detect 🚗🛣️
+# Computer Vision: Road Damage Detect
 
 Dự án Hệ thống Nhận diện Hư hỏng Mặt đường (**Road Damage Detection**). Hệ thống huấn luyện mô hình YOLOv8 trên tập dữ liệu SVRDD và tối ưu hóa chuyển đổi sang **(TFLite)** để chạy suy luận thời gian thực trên thiết bị nhúng **Raspberry Pi Zero 2W**.
 
